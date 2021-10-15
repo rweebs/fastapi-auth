@@ -1,0 +1,24 @@
+{
+    "user": {
+        "johndoe": {
+            "username": "johndoe",
+            "full_name": "John Doe",
+            "email": "johndoe@example.com",
+            "password": "$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGga31lW",
+            "disabled": false
+        },
+        "asdf": {
+            "username": "asdf",
+            "password": "$2b$12$arjqm/BFRuGop1jzIqOeX.MTRkcLIyFpNxnokoDwI5aMVJHssI3MW",
+            "full_name": "string",
+            "disabled": true
+        },
+        "asdef": {
+            "username": "asdef",
+            "password": "$2b$12$2pxudHYrNCIqD3vP3.SNX.pNsDFbPw8pFFW7ea659PV7BIuZBzzo2",
+            "full_name": "string",
+            "disabled": true,
+            "email": null
+        }
+    }
+}
