@@ -19,6 +19,20 @@
             "full_name": "string",
             "disabled": true,
             "email": null
+        },
+        "string": {
+            "username": "string",
+            "password": "$2b$12$Vx.0hWOMpfFdpPgp.hK7quGP4qRSESgS2II2BgwxinN3Matb6SNWC",
+            "full_name": "string",
+            "disabled": true,
+            "email": "string"
+        },
+        "strisng": {
+            "username": "strisng",
+            "password": "$2b$12$UckMbSgEfEpAhBGHxPExeObgsbVkn71LuVecUxZSal1g9wOhILoxC",
+            "full_name": "string",
+            "disabled": true,
+            "email": "string"
         }
     }
 }
