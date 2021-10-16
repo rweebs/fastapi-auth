@@ -7,17 +7,17 @@ from fastapi.responses import JSONResponse, RedirectResponse
 
 
 router = APIRouter(
-    prefix="/users",
+    prefix="/user",
 )
 
 
-@router.get("/me/", response_model=User)
+@router.get("/", response_model=User, tags=["user"])
 async def read_users_me(current_user: User = Depends(get_current_active_user)):
     return current_user
 
 
-@router.post('/')
-async def add_user(new_user: User, current_user: User = Depends(get_current_user)):
+@router.post('/', tags=["user"])
+async def add_user(new_user: User, current_user: User = Depends(get_current_user), tags=["user"]):
     if(get_user(users_db, new_user.username)):
         raise HTTPException(
             status_code=404, detail=f'Username is not available'
