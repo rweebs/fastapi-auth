@@ -30,6 +30,16 @@ bash run.sh
 ```cmd
 http://localhost:8000
 ```
+
+Deployment:
+- Azure App Service
+```
+https://ii3160-18219040-uts.azurewebsites.net/
+```
+- Virtual Machine
+```
+http://128.199.151.55:8000/
+```
 ## Tampilan
 
 <img src="./Screenshot.png"/>
